@@ -1,0 +1,71 @@
+
+* {
+    margin: 0; /* Removes any default margin applied to elements */
+    padding: 0; /* Removes any default padding applied to elements */
+    box-sizing: border-box; /* Makes width and height calculations include padding and border */
+  }
+  
+  /* Styles for the body of the page: */
+  body {
+    font-family: Arial, sans-serif; /* Sets the font to Arial or sans-serif as fallback */
+    background-color: black; /* Sets the background color of the page to black */
+    display: flex; /* Uses flexbox to easily center the content */
+    flex-direction: column; /* Aligns items vertically in a column */
+    justify-content: center; /* Centers content vertically within the body */
+    align-items: center; /* Centers content horizontally */
+    height: 100vh; /* Ensures the body fills the full height of the viewport */
+  }
+  
+  /* Styles for the <h1> element: */
+  h1 {
+    font-size: 2rem; /* Sets the font size to 2 rem (relative to the root font size) */
+    margin-bottom: 1rem; /* Adds space below the heading */
+    color: #333; /* Sets the color of the text to a dark gray */
+  }
+  
+  /* Styles for the .container class (used to wrap the form): */
+  .container {
+    background-color: white; /* Sets the background color of the container to white */
+    border-radius: 8px; /* Rounds the corners of the container */
+    padding: 2rem; /* Adds padding inside the container */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds a shadow around the container */
+    width: 100%; /* Ensures the container takes up the full width of its parent */
+    max-width: 500px; /* Limits the maximum width of the container to 500px */
+  }
+  
+  /* Styles for <label> elements: */
+  label {
+    font-size: 1rem; /* Sets the font size of labels to 1 rem */
+    color: #333; /* Sets the color of the label text to dark gray */
+  }
+  
+  /* Styles for input fields: */
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  input[type="number"] {
+    width: 100%; /* Makes the input fields take up the full width of their container */
+    padding: 0.8rem; /* Adds padding inside the input fields */
+    margin-top: 0.4rem; /* Adds a small margin above each input */
+    margin-bottom: 1rem; /* Adds space below each input */
+    border: 1px solid #ccc; /* Adds a light gray border around the input fields */
+    border-radius: 4px; /* Rounds the corners of the input fields */
+  }
+  
+  /* Styles for the submit button: */
+  button {
+    background-color: #007bff; /* Sets the background color to a blue */
+    color: white; /* Sets the text color to white */
+    padding: 0.8rem 1.6rem; /* Adds padding inside the button */
+    border: none; /* Removes the default border from the button */
+    border-radius: 4px; /* Rounds the corners of the button */
+    cursor: pointer; /* Changes the cursor to a pointer (hand) when hovering over the button */
+    width: 100%; /* Makes the button take up the full width of its container */
+    font-size: 1.1rem; /* Sets the font size to 1.1 rem */
+  }
+  
+  /* Styles for button hover state: */
+  button:hover {
+    background-color: #0056b3; /* Changes the background color to a darker blue when hovering */
+  }
+  
