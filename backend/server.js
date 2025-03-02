@@ -7,7 +7,6 @@ const mysql = require('mysql2');
 const db = mysql.createConnection({
   host: 'localhost',
   user: 'root',
-  password: 'Nov@38MySQL24',
   database: 'restaurant_table_booking',
 });
 
